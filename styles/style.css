@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&subset=cyrillic');
 * {
 	margin: 0;
 	padding: 0;
@@ -19,16 +19,21 @@ h1, h2, h3, h4, h5, h6 {
   background-position-y: 40%; 
   padding-top: 50px;
 }
-
 #primary-menu ul {
   list-style: none; 
   font-size: 1.2em;
 }
 #primary-menu  li {
   display: inline-block;
-  
   padding: 0 50px;
   position: relative;
+}
+#logo {
+  font-size: 2em;
+	text-shadow: 0px 3px 0px #ccc,
+             0px 14px 10px rgba(0,0,0,0.2),
+             6px 4px 2px rgba(0,0,0,0.1),
+             0px 24px 30px rgba(0,0,0,0.1);
 }
 a {
   text-decoration: none;
@@ -64,10 +69,67 @@ a {
   text-align: justify;
 }
 .article h2 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align:  center;
+}
+.article h4 {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
-
+.first,  .hidden-element {
+  padding: 0 15px ;
+}
 .owl-carousel img {
 	height: 300px;
+}
+.reviews {
+  padding: 0 10%;  
+  padding-block-start: 20px;
+  background-color: #F7F2EC;
+}
+.reviews h4 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.reviews p {
+  font-style: italic;
+  text-align: justify;
+}
+.fa-quote-left,
+.fa-quote-right {
+  color: rgba(0,0,0,0.5);
+}
+.contact_form {
+  padding-top: 60px;
+  display: inline-block;
+  font-size: 1em;
+  color: #555;
+  margin-left: 10%;
+}
+#name, 
+#email {
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #888;
+}
+.contact_form textarea {
+  width: 50%;
+  height: 150px;
+  border: 1px solid #888;
+  padding: 5px;
+}
+.contact_form input.submit {
+  font-size: 1em;
+  border: 1px solid #888;
+  padding: 5px 10px;
+  background: #fff;
+  color: #555;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
 }
