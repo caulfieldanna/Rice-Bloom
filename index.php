@@ -1,9 +1,12 @@
+<?php 
+  require "includes/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rice Bloom</title>
+	<title><?php echo $config['title']; ?></title>
 	
 	<!-- favicon -->
 	<link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
@@ -37,59 +40,38 @@
 
 	<div class="page-wrapper">
 			
-		<!-- Header -->
-		<header id="header">
-			<div class="header-png">
-				<div id="primary-menu">
-				      
-					<ul>
-						<li id="logo"><a href="">Rice Bloom</a></li>
-						<li><a href="/">Главная</a></li>
-						<li><a href="#" class="submenu-link">Категории <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> --></a>
-							<ul class="submenu">
-					        	<li><a href="/">Категория</a></li>
-					        	<li><a href="/">Категория</a></li>
-					        	<li><a href="/">Категория</a></li>
-					        	<li><a href="/">Категория</a></li>
-					        	<li><a href="/">Категория</a></li>
-					        	<li><a href="/">Категория</a></li>
-					        </ul>
-						</li>
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
+	<!-- HEADER -->
+	<?php include "../new/includes/header.php"; ?>
 		
-		<!-- article -->	
-		<section class="article">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Какой-то заголовок</h2>
-					<p>Semper sociis nunc natoque integer erat tempor eleifend luctus pellentesque ridiculus ultricies neque, torquent cum mauris, condimentum montes curae; inceptos ornare suscipit eu in pretium torquent massa suscipit tempor lobortis enim proin nunc tincidunt. Posuere.</p><br>
-					<p>Quam rhoncus. Proin libero placerat suspendisse, ultricies hac senectus iaculis. Elit ornare. Vestibulum, est habitant lectus eleifend nascetur quis hymenaeos in et lacus proin nisl tristique ornare cum eleifend ipsum egestas nascetur varius dictum facilisis ridiculus pharetra dis Turpis sagittis potenti, curabitur nibh laoreet ipsum. Ad turpis cum, neque eros quis.</p><br>
-					<p>Potenti elementum parturient neque inceptos semper. Feugiat at non congue venenatis dictumst lacinia dis per, massa faucibus mauris imperdiet sed lobortis etiam Vel. Consequat mus rhoncus scelerisque non lacinia maecenas dapibus aenean conubia Tincidunt consequat platea ultrices dictum nisl magna tellus. Tristique hac magna mus.</p><br>
-					<p>Aliquam sem potenti sed curae; sollicitudin sollicitudin libero aliquam. Metus ipsum. Cursus suspendisse suspendisse vivamus. Ullamcorper eget egestas platea commodo lobortis et in Praesent senectus dui dictumst taciti. Fames aptent. Pulvinar venenatis ullamcorper malesuada hymenaeos consequat mattis egestas sit odio curae; ultricies orci lobortis gravida turpis ligula.</p><br>
-				</div>
+	<!-- article -->	
+	<section class="article">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Какой-то заголовок</h2>
+				<p>В частности, глубокий уровень погружения создает предпосылки для кластеризации усилий. Равным образом, постоянный количественный рост и сфера нашей активности однозначно определяет каждого участника как способного принимать собственные решения касаемо форм воздействия.</p><br>
+				<p>Высокое качество позиционных исследований требует анализа экспериментов, поражающих по своей масштабности и грандиозности. Учитывая ключевые сценарии поведения, базовый вектор развития, в своем классическом представлении, допускает внедрение своевременного выполнения сверхзадачи. Экономическая повестка сегодняшнего дня выявляет срочную потребность анализа существующих паттернов поведения.</p><br>
+				<p>Как принято считать, явные признаки победы институциализации, инициированные исключительно синтетически, объявлены нарушающими общечеловеческие нормы этики и морали. Приятно, граждане, наблюдать, как сторонники тоталитаризма в науке, инициированные исключительно синтетически, превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Приятно, граждане, наблюдать, как представители современных социальных резервов, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут обнародованы.</p><br>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!-- Slider -->
-		<div id="slider-container" class="owl-carousel">
-		     <img src="static/images/img1.jpg" alt="" > 
-		     <img src="static/images/img2.jpg" alt="" > 
-		     <img src="static/images/img3.jpg" alt="" > 
-		     <img src="static/images/img4.jpg" alt="" > 
- 
-		</div>
-		<div id="slider-container" class="owl-carousel">
-		     <img src="static/images/img5.jpg" alt="" > 
-		     <img src="static/images/img6.jpg" alt="" > 
-		     <img src="static/images/img7.jpg" alt="" > 
-		     <img src="static/images/img8.jpg" alt="" > 
-		</div>
+	<!-- Slider -->
+	<div id="slider-container" class="owl-carousel">
+	     <img src="static/images/img1.jpg" alt="image" > 
+	     <img src="static/images/img2.jpg" alt="image" > 
+	     <img src="static/images/img3.jpg" alt="image" > 
+	     <img src="static/images/img4.jpg" alt="image" > 
+	     <img src="static/images/img9.jpg" alt="image" > 
+
 	</div>
+	<div id="slider-container" class="owl-carousel">
+	     <img src="static/images/img5.jpg" alt="image" > 
+	     <img src="static/images/img6.jpg" alt="image" > 
+	     <img src="static/images/img7.jpg" alt="image" > 
+	     <img src="static/images/img8.jpg" alt="image" > 
+	     <img src="static/images/img13.jpg" alt="image" > 
+	</div>
+	
 	
 	<!-- article -->
 	<section class="article">
@@ -148,6 +130,8 @@ $('.owl-carousel').owlCarousel();
 
 <script src="/styles/js/preloader.js"></script>
 <script src="/styles/js/main.js"></script>
+
+	</div>
 </body>
 
 

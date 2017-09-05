@@ -642,8 +642,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .no-gutters {
@@ -1956,7 +1954,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
+          -moz-user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
@@ -3002,7 +3000,7 @@ tbody.collapse.show {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
+          -moz-user-select: none;
   background-color: #ddd;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3059,7 +3057,7 @@ tbody.collapse.show {
   border-radius: 0.25rem;
   -webkit-appearance: none;
      -moz-appearance: none;
-          appearance: none;
+          -moz-appearance: none;
 }
 
 .custom-select:focus {
@@ -3118,7 +3116,7 @@ tbody.collapse.show {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
+          -moz-user-select: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
