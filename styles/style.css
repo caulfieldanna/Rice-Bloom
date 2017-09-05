@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+#header {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  background-image: url(/static/images/img10.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-y: 40%; 
+  padding-top: 50px;
+}
+
+#primary-menu ul {
+  list-style: none; 
+  font-size: 1.2em;
+}
+#primary-menu  li {
+  display: inline-block;
+  
+  padding: 0 50px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  outline:  none;
+  transition: .5s linear;
+  color: #000;
+  text-transform: uppercase;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.submenu li {
+  width: 100%;
+  font-size: 12px;
+  text-align: left;
+}
+#primary-menu .submenu {
+  display: none;
+}
+#primary-menu ul li:hover .submenu {
+  display: block;
+}
+.article {
+  height: auto;
+  margin: 5% 15%;
+  text-align: justify;
+}
+.article h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.owl-carousel img {
+	height: 300px;
+}
