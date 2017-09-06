@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 img:hover{
   cursor: pointer;
 }
+
+/* HEADER */
+
 #header {
   height: 400px;
   width: 100%;
@@ -38,9 +41,12 @@ img:hover{
 #logo {
   font-size: 2em;
   text-shadow: 0px 3px 0px #ccc,
-             0px 14px 10px rgba(0,0,0,0.2),
              6px 4px 2px rgba(0,0,0,0.1),
              0px 24px 30px rgba(0,0,0,0.1);
+}
+#logo p {
+  font-size: 10px;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -70,6 +76,11 @@ a {
 #primary-menu ul li:hover .submenu {
   display: block;
 }
+
+/* SECTION ARTICLE
+ for all articles on page
+*/
+
 .article {
   height: auto;
   margin: 5% 15%;
@@ -88,12 +99,21 @@ a {
 .first,  .hidden-element {
   padding: 0 15px ;
 }
+
+/* SLIDER
+owl-carousel 
+*/
+
 .owl-carousel img {
 	height: 300px;
 }
+
+/* SECTION REVIEWS */
+
 .reviews {
   padding: 0 10%;  
   padding-block-start: 20px;
+  padding-block-end: 50px;
   background-color: #F7F2EC;
 }
 .reviews h4 {
@@ -109,6 +129,10 @@ a {
 .fa-quote-right {
   color: rgba(0,0,0,0.5);
 }
+
+/* SECTION REVIEWS
+CONTACT FORM
+*/
 .contact_form {
   padding-top: 60px;
   display: inline-block;
@@ -140,6 +164,11 @@ a {
   margin-left: 30%;
   margin-top: 10px;
 }
+
+/* page about.php
+SECTION OFFERS
+*/
+
 .offers {
   height: auto;
   width: auto;
@@ -168,4 +197,38 @@ a {
   padding-top: 20px;
   padding: 10% 15%;
   text-align: justify;
+}
+
+/* FOOTER */
+
+#footer-primary-menu {
+  padding: 0 10%;
+  padding-bottom: 50px;
+  padding-block-start: 40px;
+}
+#footer-primary-menu ul {
+  list-style: none;
+}
+#footer-primary-menu li {
+  font-size: 0.8em;
+  padding-top: 5px;
+}
+#footer-primary-menu #logo {
+  font-size: 2.2em;
+  padding-bottom: 10px;
+}
+
+/* PAGE contacts.php
+class CONTACTS */
+
+.contacts h3 {
+  text-align: center;
+}
+.contacts ul {
+  list-style: none;
+ padding-left: 30%;
+  padding-bottom: 15%;
+}
+iframe {
+ margin-left: 17%;
 }

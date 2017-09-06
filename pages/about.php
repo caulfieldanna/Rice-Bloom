@@ -33,7 +33,7 @@
 </head>
 <body>
 	<div class="page-wrapper">
-		<!-- HEADER -->
+	<!-- HEADER -->
 	<?php include "../includes/header.php"; ?>
 	
 	<!-- ARTICLE ABOUT -->	
@@ -67,6 +67,11 @@
 			</div>
 		</div>
 	</section>
-	</div>
+
+	<hr>
+
+	<!-- FOOTER -->
+	<?php include "../includes/footer.php"; ?>
+	</div><!-- class="page-wrapper" -->
 </body>
 </html>

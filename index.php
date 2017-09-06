@@ -13,8 +13,8 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
 
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="/styles/preloader.css">
 	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="/styles/preloader.css">
 
 	<!-- font-awesome -->
 	<link rel="stylesheet" href="/styles/font-awesome-4.7.0/css/font-awesome.css">
@@ -120,6 +120,9 @@
 			</form>
 		</div>
 	</section>
+
+	<!-- FOOTER -->
+	<?php include "../new/includes/footer.php"; ?>
 
 <!-- <script src="/styles/js/jquery-3.2.1.min.js"></script>
 <script src="/styles/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script> -->
