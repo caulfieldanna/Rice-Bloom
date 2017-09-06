@@ -43,6 +43,7 @@ img:hover{
   background-attachment: scroll;
   background-position-y: 50%; 
   padding-top: 50px;
+  border-bottom: 10px solid rgba(255,255,255, 0.2);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -63,6 +64,9 @@ img:hover{
   text-shadow: 0px 3px 0px #ccc,
              6px 4px 2px rgba(0,0,0,0.1),
              0px 24px 30px rgba(0,0,0,0.1);
+}
+#logo a {
+  text-decoration: none;
 }
 #logo p {
   font-size: 10px;
@@ -115,9 +119,6 @@ a {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
-}
-.first,  .hidden-element {
-  padding: 0 15px ;
 }
 
 /* SLIDER
@@ -189,9 +190,6 @@ CONTACT FORM
 SECTION OFFERS
 */
 
-.offers {
-  
-}
 .offer h5{
   padding: 5%;
   text-align: center;
@@ -200,7 +198,7 @@ SECTION OFFERS
   height: 250px;
   width: 250px;
   border-radius: 10%;
-  margin-left: 10%;
+  margin-left: 20%;
   overflow: hidden;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -247,7 +245,7 @@ class CONTACTS */
  padding-left: 30%;
   padding-bottom: 15%;
 }
-  .contacts > iframe {
+  .contacts  iframe {
     width: 100%;
   }
 }

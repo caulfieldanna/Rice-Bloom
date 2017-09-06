@@ -13,7 +13,11 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
 
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.1382.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.1024.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.768.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.480.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.320.css">
 	<link rel="stylesheet" type="text/css" href="/styles/preloader.css">
 
 	<!-- font-awesome -->
@@ -55,7 +59,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.8772567253493!2d30.35697991587719!3d59.93417888187458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631a375e02635%3A0x4eb2fd08a7a91551!2z0YPQuy4g0JLQvtGB0YHRgtCw0L3QuNGPLCA4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMDE0!5e0!3m2!1sru!2sru!4v1504684445705" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.8772567253493!2d30.35697991587719!3d59.93417888187458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631a375e02635%3A0x4eb2fd08a7a91551!2z0YPQuy4g0JLQvtGB0YHRgtCw0L3QuNGPLCA4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMDE0!5e0!3m2!1sru!2sru!4v1504684445705" max-width="800" height="300" text-align="center" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</section>
 	

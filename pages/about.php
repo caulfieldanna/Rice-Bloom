@@ -13,7 +13,11 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
 
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.1382.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.1024.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.768.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.480.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.320.css">
 	<link rel="stylesheet" type="text/css" href="/styles/preloader.css">
 
 	<!-- font-awesome -->
@@ -51,17 +55,17 @@
 	<section class="offers">
 		<div class="row">
 			<div class="offer col-md-4">
-				<h4>Ветряные мельницы</h4>
+				<h5>Ветряные мельницы</h5>
 				<img src="/static/images/img11.jpg" alt="">
 				<p>Значимость этих проблем настолько очевидна, что высококачественный прототип будущего проекта способствует повышению качества благоприятных перспектив. Интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
 			</div>
 			<div class="offer col-md-4">
-				<h4>Горы и озеро</h4>
+				<h5>Горы и озеро</h5>
 				<img src="/static/images/img12.jpg" alt="">
 				<p>Следует отметить, что высокотехнологичная концепция общественного уклада предопределяет высокую востребованность анализа существующих паттернов поведения процесс внедрения и модернизации укрепления моральных ценностей..</p>
 			</div>
-			<div class="offer col-md-4">
-				<h4>Пальмовые листья</h4>
+			<div class="offer hidden-element col-md-4">
+				<h5>Пальмовые листья</h5>
 				<img src="/static/images/img14.jpg" alt="">
 				<p>Принимая во внимание показатели успешности, новая модель организационной деятельности говорит о возможностях глубокомысленных рассуждений. Как принято считать, независимые государства могут быть функционально разнесены на независимые элементы.</p>
 			</div>
