@@ -13,11 +13,11 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
 
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="../styles/style.1382.css">
-	<link rel="stylesheet" type="text/css" href="../styles/style.1024.css">
-	<link rel="stylesheet" type="text/css" href="../styles/style.768.css">
-	<link rel="stylesheet" type="text/css" href="../styles/style.480.css">
-	<link rel="stylesheet" type="text/css" href="../styles/style.320.css">
+	<link rel="stylesheet" type="text/css" href="/styles/style.1382.css">
+	<link rel="stylesheet" type="text/css" href="/styles/style.1024.css">
+	<link rel="stylesheet" type="text/css" href="/styles/style.768.css">
+	<link rel="stylesheet" type="text/css" href="/styles/style.480.css">
+	<link rel="stylesheet" type="text/css" href="/styles/style.320.css">
 	<link rel="stylesheet" type="text/css" href="/styles/preloader.css">
 
 	<!-- font-awesome -->

@@ -1,21 +1,3 @@
-/* Десктоп с большими разрешениями, телевизоры 
- 
-@media only screen and (min-width: 1382px) {
- 
-}
-/* Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп 
- 
-@media only screen and (min-width: 992px) {
-}
-/* Планшеты в режиме portrait 
- 
-@media only screen and (min-width: 768px) {
-}
-/* Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее 
- 
-@media only screen and (min-width: 480px) {
-}*/
-
 @media (max-width: 1382px) {
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&subset=cyrillic');
@@ -78,6 +60,44 @@ a {
   transition: .5s linear;
   color: #000;
   text-transform: uppercase;
+}
+.nav-toggle {
+display: none;
+position: relative;
+float: right;
+width: 40px;
+height: 40px;
+margin-left: 20px;
+background: #EF5A42;
+cursor: pointer;
+}
+.nav-toggle span {
+display: block;
+position: absolute;
+top: 19px;
+left: 8px;
+right: 8px;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before, .nav-toggle span:after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+width: 100%;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before {
+top: -10px;
+}
+.nav-toggle span:after {
+bottom: -10px;
+}
+/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+#primary-menu.active {
+max-height: 123px;
 }
 .submenu {
   position: absolute;

@@ -133,7 +133,6 @@ $('.owl-carousel').owlCarousel();
 
 <script src="/styles/js/preloader.js"></script>
 <script src="/styles/js/main.js"></script>
-
 	</div>
 </body>
 
