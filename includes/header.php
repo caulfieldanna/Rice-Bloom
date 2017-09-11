@@ -8,12 +8,12 @@
         <li><a href="/">Главная</a></li>
         <li><a href="#" class="submenu-link">Категории <!-- <i class="fa fa-sort-desc" aria-hidden="true"></i> --></a>
           <ul class="submenu">
-                <li><a href="/">Категория</a></li>
-                <li><a href="/">Категория</a></li>
-                <li><a href="/">Категория</a></li>
-                <li><a href="/">Категория</a></li>
-                <li><a href="/">Категория</a></li>
-                <li><a href="/">Категория</a></li>
+                <li><a href="/pages/inspiration.php">Вдохновение</a></li>
+                <li><a href="/">Открытия</a></li>
+                <li><a href="/">Опыт</a></li>
+                <li><a href="/">Программы</a></li>
+                <li><a href="/">Цели</a></li>
+                <li><a href="/">События</a></li>
               </ul>
         </li>
         <li><a href="/pages/about.php">О нас</a></li>

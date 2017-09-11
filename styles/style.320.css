@@ -75,7 +75,12 @@ a {
 .submenu li {
   width: 100%;
   font-size: 10px;
-  text-align: left;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.submenu a:hover {
+  color: rgba(205,0,0,0.9);
+  text-decoration: none;
 }
 #primary-menu .submenu {
   display: none;
@@ -127,6 +132,9 @@ owl-carousel
 .reviews p {
   font-style: italic;
   text-align: justify;
+}
+.autor {
+  float: right;
 }
 .fa-quote-left,
 .fa-quote-right {

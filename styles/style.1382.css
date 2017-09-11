@@ -61,44 +61,6 @@ a {
   color: #000;
   text-transform: uppercase;
 }
-.nav-toggle {
-display: none;
-position: relative;
-float: right;
-width: 40px;
-height: 40px;
-margin-left: 20px;
-background: #EF5A42;
-cursor: pointer;
-}
-.nav-toggle span {
-display: block;
-position: absolute;
-top: 19px;
-left: 8px;
-right: 8px;
-height: 2px;
-background: white;
-}
-.nav-toggle span:before, .nav-toggle span:after {
-content: "";
-position: absolute;
-display: block;
-left: 0;
-width: 100%;
-height: 2px;
-background: white;
-}
-.nav-toggle span:before {
-top: -10px;
-}
-.nav-toggle span:after {
-bottom: -10px;
-}
-/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
-#primary-menu.active {
-max-height: 123px;
-}
 .submenu {
   position: absolute;
   top: 100%;
@@ -108,11 +70,18 @@ max-height: 123px;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  background: rgba(255,255,255,0.7);
+  
 }
 .submenu li {
   width: 100%;
-  font-size: 12px;
-  text-align: left;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.submenu a:hover {
+  color: rgba(205,0,0,0.9);
+  text-decoration: none;
 }
 #primary-menu .submenu {
   display: none;
@@ -165,6 +134,9 @@ owl-carousel
 .reviews p {
   font-style: italic;
   text-align: justify;
+}
+.autor {
+  float: right;
 }
 .fa-quote-left,
 .fa-quote-right {
@@ -268,4 +240,72 @@ class CONTACTS */
   .contacts  iframe {
     width: 100%;
   }
+}
+
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block-end: 100px;
+  height: auto;
+  margin: 5% 10%;
+}
+.block-bg-1, .block-bg-2,
+.block-bg-3, .block-bg-4,
+.block-bg-5, .block-bg-6 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-y: 60%; 
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 25px;
+  block-size: 200px;
+  color: #222;
+  background: rgba(0,0,0, 0.1);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.block-1:hover, .block-2:hover, .block-3:hover,
+.block-4:hover, .block-5:hover, .block-6:hover {
+  background: rgba(255,255,255, 0.5);
+}
+.block-bg-1 {
+  max-width: 50%;
+  background-image: url(/static/images/img2.jpg);
+}
+.block-bg-2 {
+  max-width: 50%;
+  background-image: url(/static/images/img19.jpg);
+}
+.block-bg-3 {
+  max-width: 35%;
+  background-image: url(/static/images/img8.jpg);
+}
+.block-bg-4 {
+  max-width: 65%;
+  background-image: url(/static/images/img5.jpg);
+}
+.block-bg-5 {
+  max-width: 55%;
+  background-image: url(/static/images/img18.jpg);
+}
+.block-bg-6 {
+  max-width: 45%;
+  background-image: url(/static/images/img16.jpg);
+}
+.insp-gallery input{
+  background: rgba(255,255,255, 0.5);
+  border: none;
+  border-bottom: 1px solid #222;
+  padding: 5px 10px;
+  color: #222;
+  text-align: center;
+}
+.insp-gallery input:hover{
+  background: transparent;
 }
