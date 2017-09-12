@@ -119,7 +119,7 @@
 				<input id="email" class="contact_form" name="email" placeholder="Ваш Email *" required="" data-validation-required-message="Введите ваш e-mail адрес" aria-invalid="false" type="text">
 				<textarea name="comments" id="comments" class="contact_form" placeholder="Ваше сообщение *" required="" data-validation-required-message="Напишите свое сообщение" aria-invalid="false" ></textarea>
 				<br>
-				<input class="submit" type="submit" name="submit" value="Отправить" aria-invalid="false">
+				<input type="submit" class="submit" name="submit" value="Отправить">
 			</form>
 		</div>
 	</section>

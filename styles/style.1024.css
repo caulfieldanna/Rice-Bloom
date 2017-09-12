@@ -114,7 +114,7 @@ owl-carousel
 */
 
 .owl-carousel img {
-	height: 300px;
+  height: 300px;
 }
 
 /* SECTION REVIEWS */
@@ -208,15 +208,10 @@ SECTION OFFERS
 }
 
 /* FOOTER */
-
 #footer-primary-menu {
-  
-  padding-bottom: 50px;
-  padding-block-start: 40px;
+  margin-left: -5%;
 }
-#footer-primary-menu ul {
-  list-style: none;
-}
+
 #footer-primary-menu li {
   font-size: 0.8em;
   padding-top: 5px;
@@ -234,10 +229,23 @@ class CONTACTS */
 }
 .contacts ul {
   list-style: none;
- padding-left: 30%;
+  padding-left: 30%;
   padding-bottom: 15%;
 }
-  .contacts iframe {
-    width: 800px;
-  }
+.contacts iframe {
+  width: 800px;
+}
+
+/* SECTION
+insp-gallery */
+  
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 20px;
+  block-size: 180px;
+}
+.insp-gallery input{
+  cursor: pointer;
+}
+
 }

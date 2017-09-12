@@ -229,10 +229,25 @@ class CONTACTS */
 }
 .contacts ul {
   list-style: none;
- padding-left: 30%;
+  padding-left: 30%;
   padding-bottom: 15%;
 }
-  .contacts iframe {
-    width: 800px;
-  }
+.contacts iframe {
+  width: 800px;
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  margin: 5% 0%;
+  font-size: 0.9em;
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 10px;
+  block-size: 160px;
+}
+.insp-gallery input{
+  cursor: pointer;
+} 
+
 }

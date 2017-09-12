@@ -231,10 +231,32 @@ class CONTACTS */
 }
 .contacts ul {
   list-style: none;
- padding-left: 30%;
+  padding-left: 30%;
   padding-bottom: 15%;
 }
 .contacts iframe {
   width: 100%;
- }
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-block-end: 20px;
+}
+.block-bg-1, .block-bg-2,
+.block-bg-3, .block-bg-4,
+.block-bg-5, .block-bg-6 {
+  min-width: 320px
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 10px;
+  min-width: 320px;
+}
+.insp-gallery input{
+  padding: 2px 5px;
+  margin-top: 20px;
+}
 }

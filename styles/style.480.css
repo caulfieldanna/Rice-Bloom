@@ -209,11 +209,9 @@ SECTION OFFERS
 
 /* FOOTER */
 #footer-primary-menu {
-text-align: left;
+text-align: center;
 }
-#footer-primary-menu h6 {
-font-size: 1.25em;
-}
+
 #footer-primary-menu li {
 font-size: 0.8em;
 padding: 0 10px;
@@ -235,5 +233,31 @@ class CONTACTS */
   list-style: none;
   padding-left: 30%;
   padding-bottom: 5%;
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  font-size: 0.8em;
+}
+.block-bg-1, .block-bg-2,
+.block-bg-3, .block-bg-4,
+.block-bg-5, .block-bg-6 {
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 5px;
+  block-size: 150px;
+}
+.block-bg-3 {
+  max-width: 40%;
+}
+.block-bg-4 {
+  max-width: 60%;
+}
+.insp-gallery input{
+  padding: 1px 4px;
 }
 }
