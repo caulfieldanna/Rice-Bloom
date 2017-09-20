@@ -1,98 +1,31 @@
 @media (max-width: 320px) {
-  
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&subset=cyrillic');
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-}
-img:hover{
-  cursor: pointer;
-}
-p {
-  font-size: 0.9em;
-}
-
+  p {
+    font-size: 0.9em;
+  }
 /* HEADER */
-
-#header {
-  height: 210px;
-  width: auto;
-  text-align: justify;
-  background-image: url(/static/images/img10.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  padding-top: 0px;
-  border-bottom: 10px solid rgba(255,255,255, 0.2);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
 #primary-menu ul {
   font-size: 0.8em;
 }
 #primary-menu  li {
-  display: inline-block;
   padding: 0 7px;
   padding-top: 5px;
-  position: relative;
 }
 #logo {
-  font-size: 1.5em;
-  text-shadow: 0px 3px 0px #ccc,
-             6px 4px 2px rgba(0,0,0,0.1),
-             0px 24px 30px rgba(0,0,0,0.1);
-  margin-left: 100px;
-  width: 100%;
+  font-size: 1.8em;
 }
 #logo p {
   font-size: 0.35em;
   margin: 0;
 }
-a {
-  text-decoration: none;
-  outline:  none;
-  transition: .5s linear;
-  color: #000;
-  text-transform: uppercase;
-}
 .submenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 10;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
-  -o-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  left: -10px;
 }
 .submenu li {
-  width: 100%;
-  font-size: 10px;
-  text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.5);
+  font-size: 12px;
 }
-.submenu a:hover {
-  color: rgba(205,0,0,0.9);
-  text-decoration: none;
-}
-#primary-menu .submenu {
-  display: none;
-}
-#primary-menu ul li:hover .submenu {
-  display: block;
-}
-
 /* SECTION ARTICLE
  for all articles on page
 */
-
 .article {
   height: auto;
   text-align: justify;
@@ -107,104 +40,33 @@ a {
   text-align: center;
   padding-bottom: 10px;
 }
-
 /* SLIDER
 owl-carousel 
 */
-
 .owl-carousel img {
-  height: 110px;
+  height: 120px;
 }
-
 /* SECTION REVIEWS */
-
 .reviews {
   padding: 5%;  
-  padding-block-start: 10px;
-  padding-block-end: 40px;
-  background-color: #F7F2EC;
 }
 .reviews h4 {
-  text-align: center;
-  padding-top: 20px;
   font-size: 1.2em;
 }
-.reviews p {
-  font-style: italic;
-  text-align: justify;
-}
-.autor {
-  float: right;
-}
-.fa-quote-left,
-.fa-quote-right {
-  color: rgba(0,0,0,0.5);
-}
-
 /* SECTION REVIEWS
 CONTACT FORM
 */
-.contact_form {
-  padding-top: 40px;
-  display: inline-block;
-  font-size: 0.9em;
-  color: #555;
-}
-#name, 
-#email {
-  font-size: 1em;
-  margin-bottom: 10px;
-  padding: 5px;
-  width: 100%;
-  border: 1px solid #888;
-}
-.contact_form textarea {
-  width: 100%;
-  height: 100px;
-  border: 1px solid #888;
-  padding: 5px;
-}
-.contact_form input.submit {
-  font-size: 1em;
-  border: 1px solid #888;
-  padding: 5px 10px;
-  background: #fff;
-  color: #555;
-  text-align: center;
-  margin-left: 30%;
-  margin-top: 10px;
-}
 
 /* page about.php
 SECTION OFFERS
 */
-
-.offers h5{
-  font-size: 1em;
-  text-align: center;
-}
 .offers img {
   height: 200px;
   width: 100%;
   border-radius: 5%;
   margin-left: 0;
   margin-bottom: 10px;
-  overflow: hidden;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
 }
-.offers img:hover {
-  border: 10px solid rgba(0,0,0,0.1);
-  border-radius: 15%;
-}
-.offers p {
-  padding: 0;
-  text-align: justify;
-}
-
 /* FOOTER */
 #footer-primary-menu h6 {
 font-size: 1.1em;
@@ -215,24 +77,20 @@ padding: 0 2px;
 text-align: left;
 display: inline-block;
 }
-#footer-primary-menu {
-text-align: left;
-}
 #footer-primary-menu #logo {
-font-size: 1.4em;
+font-size: 1.5em;
 text-align: center;
-margin: 0;
 }
 /* PAGE contacts.php
 class CONTACTS */
-
-.contacts h3 {
+.contacts h2 {
   text-align: center;
 }
 .contacts ul {
-  list-style: none;
-  padding-left: 30%;
-  padding-bottom: 15%;
+  padding-left: 0%;
+}
+.contacts li {
+  font-size: 0.9em;
 }
 .contacts iframe {
   width: 100%;

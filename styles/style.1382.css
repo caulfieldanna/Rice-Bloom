@@ -12,25 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 img:hover{
   cursor: pointer;
 }
-
 /* HEADER */
-
 #header {
-  height: 400px;
-  width: auto;
-  text-align: center;
-  background-image: url(/static/images/img10.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position-y: 50%; 
-  padding-top: 50px;
-  border-bottom: 10px solid rgba(255,255,255, 0.2);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+ text-align: center;
+  padding-bottom: 200px;
 }
 #primary-menu ul {
   list-style: none; 
@@ -46,6 +31,7 @@ img:hover{
   text-shadow: 0px 3px 0px #ccc,
              6px 4px 2px rgba(0,0,0,0.1),
              0px 24px 30px rgba(0,0,0,0.1);
+  margin-top: 50px;
 }
 #logo a {
   text-decoration: none;
@@ -54,7 +40,7 @@ img:hover{
   font-size: 10px;
   margin: 0;
 }
-a {
+#primary-menu a {
   text-decoration: none;
   outline:  none;
   transition: .5s linear;
@@ -70,7 +56,7 @@ a {
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.4);
   
 }
 .submenu li {
@@ -89,11 +75,9 @@ a {
 #primary-menu ul li:hover .submenu {
   display: block;
 }
-
 /* SECTION ARTICLE
  for all articles on page
 */
-
 .article {
   height: auto;
   margin: 5% 15%;
@@ -109,17 +93,13 @@ a {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-
 /* SLIDER
 owl-carousel 
 */
-
 .owl-carousel img {
 	height: 300px;
 }
-
 /* SECTION REVIEWS */
-
 .reviews {
   padding: 0 10%;  
   padding-block-start: 20px;
@@ -142,7 +122,6 @@ owl-carousel
 .fa-quote-right {
   color: rgba(0,0,0,0.5);
 }
-
 /* SECTION REVIEWS
 CONTACT FORM
 */
@@ -178,11 +157,9 @@ CONTACT FORM
   margin-top: 10px;
   cursor: pointer;
 }
-
 /* page about.php
 SECTION OFFERS
 */
-
 .offer h5{
   padding: 5%;
   text-align: center;
@@ -208,7 +185,6 @@ SECTION OFFERS
   padding: 10% 15%;
   text-align: justify;
 }
-
 /* FOOTER */
 #footer-primary-menu {
   padding-bottom: 50px;
@@ -226,11 +202,9 @@ SECTION OFFERS
   font-size: 2.2em;
   padding-bottom: 10px;
 }
-
 /* PAGE contacts.php
 class CONTACTS */
-
-.contacts h3 {
+.contacts h2 {
   text-align: center;
 }
 .contacts ul {
@@ -238,10 +212,9 @@ class CONTACTS */
   padding-left: 30%;
   padding-bottom: 15%;
 }
-  .contacts  iframe {
-    width: 100%;
+ .contacts  iframe {
+   width: 100%;
 }
-
 /* SECTION
 insp-gallery */
 .insp-gallery {
@@ -310,5 +283,4 @@ insp-gallery */
 .insp-gallery input:hover{
   background: transparent;
 }
-
 }

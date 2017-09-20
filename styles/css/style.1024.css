@@ -1,0 +1,79 @@
+@media (max-width: 1024px) {
+
+/* HEADER */
+#header {
+  padding-bottom: 250px;
+}
+#logo {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+/* SECTION ARTICLE
+ for all articles on page
+*/
+.article {
+  height: auto;
+  margin: 0% 10%;
+  text-align: justify;
+}
+.article h2 {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align:  center;
+}
+.article h4 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/* SLIDER
+owl-carousel 
+*/
+
+/* SECTION REVIEWS */
+
+/* SECTION REVIEWS
+CONTACT FORM
+*/
+
+/* page about.php
+SECTION OFFERS
+*/
+.offers img {
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  margin-left: 10%;
+  overflow: hidden;
+}
+/* FOOTER */
+#footer-primary-menu {
+  margin-left: -5%;
+}
+#footer-primary-menu li {
+  font-size: 0.8em;
+  padding-top: 5px;
+}
+#footer-primary-menu #logo {
+  font-size: 2.2em;
+  padding-bottom: 10px;
+}
+/* PAGE contacts.php
+class CONTACTS */
+.contacts iframe {
+  width: 800px;
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+margin-block-end: -200px;  
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 20px;
+  block-size: 180px;
+}
+.insp-gallery input{
+  cursor: pointer;
+}
+}

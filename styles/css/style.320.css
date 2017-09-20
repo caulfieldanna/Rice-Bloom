@@ -1,0 +1,120 @@
+@media (max-width: 320px) {
+  p {
+    font-size: 0.9em;
+  }
+/* HEADER */
+#primary-menu ul {
+  font-size: 0.8em;
+}
+#primary-menu  li {
+  padding: 0 7px;
+  padding-top: 5px;
+}
+#logo {
+  font-size: 1.8em;
+}
+#logo p {
+  font-size: 0.35em;
+  margin: 0;
+}
+.submenu {
+  left: -10px;
+}
+.submenu li {
+  font-size: 12px;
+}
+/* SECTION ARTICLE
+ for all articles on page
+*/
+.article {
+  height: auto;
+  text-align: justify;
+}
+.article h2 {
+  padding-bottom: 15px;
+  text-align:  center;
+  font-size: 1.3em;
+}
+.article h4 {
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* SLIDER
+owl-carousel 
+*/
+.owl-carousel img {
+  height: 120px;
+}
+/* SECTION REVIEWS */
+.reviews {
+  padding: 5%;  
+}
+.reviews h4 {
+  font-size: 1.2em;
+}
+/* SECTION REVIEWS
+CONTACT FORM
+*/
+
+/* page about.php
+SECTION OFFERS
+*/
+.offers img {
+  height: 200px;
+  width: 100%;
+  border-radius: 5%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+/* FOOTER */
+#footer-primary-menu h6 {
+font-size: 1.1em;
+}
+#footer-primary-menu li {
+font-size: 0.7em;
+padding: 0 2px;
+text-align: left;
+display: inline-block;
+}
+#footer-primary-menu #logo {
+font-size: 1.5em;
+text-align: center;
+}
+/* PAGE contacts.php
+class CONTACTS */
+.contacts h2 {
+  text-align: center;
+}
+.contacts ul {
+  padding-left: 0%;
+}
+.contacts li {
+  font-size: 0.9em;
+}
+.contacts iframe {
+  width: 100%;
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-block-end: 20px;
+}
+.block-bg-1, .block-bg-2,
+.block-bg-3, .block-bg-4,
+.block-bg-5, .block-bg-6 {
+  min-width: 320px
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 10px;
+  min-width: 320px;
+}
+.insp-gallery input{
+  padding: 2px 5px;
+  margin-top: 20px;
+}
+}

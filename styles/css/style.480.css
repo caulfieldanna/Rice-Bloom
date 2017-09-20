@@ -1,0 +1,98 @@
+@media (max-width: 480px) {
+ 
+/* HEADER */
+#primary-menu ul {
+  list-style: none; 
+  font-size: 1em;
+}
+#primary-menu  li {
+  padding: 0 20px;
+  padding-top: 10px;
+}
+/* SECTION ARTICLE
+ for all articles on page
+*/
+.article {
+  margin: 5% 2%;
+}
+.article h2 {
+  padding-bottom: 30px;
+  font-size: 1.5em;
+}
+.article h4 {
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+/* SLIDER
+owl-carousel 
+*/
+.owl-carousel img {
+  height: 150px;
+}
+/* SECTION REVIEWS */
+
+/* SECTION REVIEWS
+CONTACT FORM
+*/
+.contact_form {
+  margin-left: 0%;
+}
+#name, 
+#email {
+  width: 100%;
+}
+.contact_form textarea {
+  width: 100%;
+}
+.contact_form input.submit {
+  margin-left: 35%;
+  margin-top: 10px;
+}
+/* page about.php
+SECTION OFFERS
+*/
+.offers img {
+  margin-left: 30%;
+}
+/* FOOTER */
+#footer-primary-menu {
+text-align: center;
+}
+#footer-primary-menu li {
+font-size: 0.8em;
+padding: 0 10px;
+display: inline;
+}
+#footer-primary-menu iframe {
+width: 100%;
+}
+/* PAGE contacts.php
+class CONTACTS */
+
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  font-size: 0.8em;
+}
+.block-bg-1, .block-bg-2,
+.block-bg-3, .block-bg-4,
+.block-bg-5, .block-bg-6 {
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 5px;
+  block-size: 150px;
+}
+.block-bg-3 {
+  max-width: 40%;
+}
+.block-bg-4 {
+  max-width: 60%;
+}
+.insp-gallery input{
+  padding: 1px 4px;
+}
+}

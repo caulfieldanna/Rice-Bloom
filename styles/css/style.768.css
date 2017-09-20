@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+  
+/* HEADER */
+#header {
+  height: 400px;
+}
+#primary-menu ul {
+  list-style: none; 
+  font-size: 1em;
+}
+#primary-menu  li {
+  padding: 0 20px;
+  padding-top: 10px;
+}
+/* SECTION ARTICLE
+ for all articles on page
+*/
+.article {
+  margin: 0% 2%;
+}
+/* SLIDER
+owl-carousel 
+*/
+.owl-carousel img {
+	height: 200px;
+}
+/* SECTION REVIEWS */
+
+/* SECTION REVIEWS
+CONTACT FORM
+*/
+.contact_form input.submit {
+  margin-left: 25%;
+  margin-top: 10px;
+}
+/* page about.php
+SECTION OFFERS
+*/
+.offers h5{
+  font-size: 1em;
+  text-align: center;
+}
+.offers img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.offers img:hover {
+  border: 10px solid rgba(0,0,0,0.1);
+  border-radius: 15%;
+}
+.offers p {
+  padding: 0;
+  text-align: justify;
+}
+/* FOOTER */
+#footer-primary-menu #logo {
+  margin: 0;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+#footer-primary-menu iframe {
+  width: 200px;
+}
+/* PAGE contacts.php
+class CONTACTS */
+.contacts {
+  margin: 0;
+  padding-top: 50px;
+}
+.contacts h2 {
+  text-align: center;
+}
+.contacts ul {
+  list-style: none;
+  padding-left: 30%;
+  padding-bottom: 15%;
+}
+.contacts iframe {
+  width: 800px;
+}
+/* SECTION
+insp-gallery */
+.insp-gallery {
+  margin: 5% 0%;
+  font-size: 0.9em;
+}
+.block-1, .block-2, .block-3,
+.block-4, .block-5, .block-6 {
+  padding: 10px;
+  block-size: 160px;
+}
+.insp-gallery input{
+  cursor: pointer;
+} 
+}
