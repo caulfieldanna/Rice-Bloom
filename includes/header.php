@@ -11,10 +11,10 @@
               <ul class="submenu">
                     <li><a href="/pages/inspiration.php">Вдохновение</a></li>
                     <li><a href="/pages/discoveries.php">Открытия</a></li>
-                    <li><a href="/">Опыт</a></li>
-                    <li><a href="/">Программы</a></li>
-                    <li><a href="/">Цели</a></li>
-                    <li><a href="/">События</a></li>
+                    <li><a href="/pages/experience.php">Опыт</a></li>
+                    <li><a href="/pages/progress.php">Достижения</a></li>
+                    <li><a href="/pages/target.php">Цели</a></li>
+                    <li><a href="/pages/events.php">События</a></li>
                   </ul>
             </li>
             <li><a href="/pages/about.php">О нас</a></li>
